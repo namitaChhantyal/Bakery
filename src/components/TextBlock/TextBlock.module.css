@@ -1,0 +1,31 @@
+.Container {
+    width: 50%;
+    color: var(--primary-color);
+    margin: auto;
+}
+.Container  h1,
+.Container h2,
+.Container h3,
+.Container h4,
+.Container h5,
+.Container h6,
+.Container p {
+    color: var(--primary-color);
+    margin:  0;
+}
+.Container > div {
+    margin: 2rem 0 1rem 0;
+    padding: .2rem;
+    text-align: left;
+}
+
+.Container > div > h3 {
+    margin-bottom: .2rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .Container {
+        width: 80%;
+
+    }
+  }

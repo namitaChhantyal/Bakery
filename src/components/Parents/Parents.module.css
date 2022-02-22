@@ -1,0 +1,31 @@
+.Container{
+    width: 70%;
+    margin: 0 auto;
+    padding: 2rem 5rem;
+    display: flex;
+    /* flex-flow: row wrap; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.img{
+    width: 18rem;
+    margin: 2.5rem;
+}
+
+@media only screen and (max-width: 1442px) {
+    .Container {
+        width: 90%;
+        padding: 1rem 3rem;
+    }
+}
+
+
+@media only screen and (max-width: 782px) {
+    .Container {
+        width: 100%;
+    }
+}

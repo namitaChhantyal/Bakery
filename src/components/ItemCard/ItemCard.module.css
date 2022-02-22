@@ -1,0 +1,24 @@
+.Card {
+    /* width: 30%; */
+    margin: auto;
+    
+}
+
+.CardImage {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.CardInfo {
+    text-align: center;
+    margin: 0 auto;
+    color: var(--primary-color);
+    background-color: var(--tertiary-color)
+}
+
+.CardInfo h4 {
+    margin-top: 0;
+    padding-top: 1rem;
+}

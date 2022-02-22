@@ -1,0 +1,43 @@
+.FormArea {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+}
+
+.FormArea label {
+    color: var(--primary-color);
+    text-align: left;
+    margin: 1rem 0 .3rem 0;
+}
+
+.FormArea input,
+.FormArea textarea {
+    padding: .5rem .3rem;
+    background-color: var(--tertiary-color);
+    border: none;
+    -webkit-box-shadow: 2px 4px 5px 0px rgba(173,173,173,1);
+    -moz-box-shadow: 2px 4px 5px 0px rgba(173,173,173,1);
+    box-shadow: 2px 4px 5px 0px rgba(173,173,173,1);
+}
+
+.FormArea button {
+    margin-top: 2rem;
+    padding: .4rem 0 .6rem 0;
+    border:none;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .Container {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .Container {
+        width: 75%;
+    }
+}

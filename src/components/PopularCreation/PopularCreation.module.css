@@ -1,0 +1,14 @@
+.itemContainer {
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+.item{
+  width: 20rem;
+  margin: 1.5rem .5rem;
+}
+

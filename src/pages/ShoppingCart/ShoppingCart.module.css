@@ -1,0 +1,22 @@
+.Category{
+    background: var(--primary-color);
+    color: white;
+}
+
+.CategoryTitle{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 2.5%; */
+    margin-left: auto;
+}
+
+.CategoryTitle p{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+.CategoryTitle p:first-child{
+    margin-left: 1rem;
+    margin-right: auto;
+}

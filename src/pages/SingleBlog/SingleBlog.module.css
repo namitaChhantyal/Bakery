@@ -1,0 +1,93 @@
+
+.BlogMain {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.BlogText {
+ width: 90%;
+ margin: 0;
+ padding: 0;
+}
+
+.BlogMainText {
+    width: 90%;
+    line-height: 1.3rem;
+    text-align: left;
+    margin: 1rem 0;
+    padding: 0;
+    margin-right: 2rem;
+}
+
+.BlogMainFigure {
+    float: right;
+    height: 25rem;
+    margin: 0;
+}
+
+.BlogMainImg{
+    float: right;
+    width: 100%;
+    height: 100%;
+
+}
+
+.Recipe {
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+
+.Ingredients div, 
+.Preperation div  {
+    margin: 2rem 0;
+    margin-left: 0;
+    text-align: left;
+}
+
+.IngredientsImage {
+    /* height: 25rem; */
+    width: 20rem;
+    margin:2rem auto;
+    text-align: center;
+}
+
+.IngredientsList li {
+    padding: 0;
+    margin: .8rem 0;
+    text-align: left;
+}
+
+
+
+.Preperation {
+    width: 80%;
+    margin-left: 2rem;
+}
+
+.PreperationList{
+    text-align: left;
+    width: 80%;
+    padding-left: 1.5rem;
+}
+
+.PreperationList li{
+    text-align: left;
+    /* margin-left: 1rem; */
+}
+
+.PreperationItem{
+    text-align: left;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .BlogMain {
+        width: 95%;
+    }
+    .Recipe {
+        width: 80%;
+
+    }
+}

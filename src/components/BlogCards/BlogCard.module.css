@@ -1,0 +1,49 @@
+.Card{
+    width: 50%;
+    background-color:linear-gradient(0deg, rgba(255,255,255,0) 25%, rgb(175, 225, 248) 100%);;
+    display: flex;
+    margin: 2.5rem auto;
+}
+
+.Text{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.TextArea {
+    color: powderblue;
+    padding: 1.5rem 1.5rem;
+}
+
+.Icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Icons p {
+    margin: 1rem;
+    font-size: 2.5rem;;
+}
+
+.Icons p:last-child {
+    margin: 0 .5rem;
+}
+
+.Image {
+    display: flex;
+    height: 17rem;
+    width: 80%;
+    margin: 0;
+}
+
+.Image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.CardLink {
+    margin: 1.5rem;
+}

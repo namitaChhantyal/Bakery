@@ -1,0 +1,32 @@
+.ItemList {
+    padding: 0 2rem 2rem 2rem;
+  }
+  
+  .ItemListCenter {
+    width: 60vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+  }
+  
+  .NoItems{
+    padding: 2rem;
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+  }
+
+  @media only screen and (max-width: 1022px) {
+    .ItemListCenter {
+      width: 80vw;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+@media only screen and (max-width: 578px) {
+  .ItemListCenter {
+    /* width: 90vw; */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}

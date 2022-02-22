@@ -1,0 +1,53 @@
+//overwrite theme variables
+
+.input-group-text{
+    background-color: var(--primary-color) !important;
+}
+
+nav.bg-dark{
+    background-color: #F6F6F6 !important;
+    color: var(--secondary-color) !important;
+}
+
+.nav-link{
+    color:var(--secondary-color) !important ;
+    position: relative;
+}
+
+.nav-link span{
+    position: absolute;
+    top: .2rem;
+    left: 7.8rem;
+    background-color: var(--secondary-color);
+    margin-right: auto;
+}
+
+.nav-link img{
+    width: 2rem;
+}
+
+.navbar-brand{
+    background-color: var(--tertiary-color);
+    color: var(--primary-color) !important;
+    text-align: center;
+    padding: .8rem;
+}
+
+.navbar-brand img{
+    width: 2rem;
+}
+
+.navbar-brand div{
+    line-height: 1rem;
+}
+
+.responsive-navbar-nav{
+    background-color: var(--tertiary-color);
+    color: var(--primary-color)
+}
+button.navbar-toggler{
+    background-color: var(--primary-color);
+    color: var(--primary-color) !important;
+}
+//import bootstrap styles at the bottom
+@import '~bootstrap/scss/bootstrap.scss'

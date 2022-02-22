@@ -1,0 +1,22 @@
+.SummaryContainer{
+    width: 20rem;
+    /* height: 30rem; */
+}
+
+.SummaryCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--tertiary-color);
+    color:var(--primary-color);
+    margin-top: 1rem;
+}
+
+.SummaryInfo{
+    margin-left: .5rem;
+}
+
+.SummaryInfo p {
+    margin-bottom: .2rem;
+}

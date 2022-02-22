@@ -1,0 +1,39 @@
+.IconContainer {
+    width: 70%;
+    margin: 0 auto;
+    padding: 2rem 5rem;
+    display: flex;
+    /* flex-flow: row wrap; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+
+.IconCard {
+    width: 15rem;
+    margin-top: 1rem;
+    align-self: center;
+    justify-self: center;
+    /* width: 25%; */
+}
+
+.Icon {
+    width: 10rem;
+}
+
+@media only screen and (max-width: 1442px) {
+    .IconContainer {
+        width: 90%;
+        padding: 1rem 3rem;
+    }
+}
+
+
+@media only screen and (max-width: 782px) {
+    .IconContainer {
+        width: 100%;
+    }
+}

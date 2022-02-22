@@ -1,0 +1,35 @@
+.Container {
+   width: 40%; 
+   display: flex;
+   background-color: var(--tertiary-color);
+   color: var(--primary-color);
+   margin: auto;
+   margin-top: 1.4rem;
+   margin-bottom: 1.4rem;
+}
+
+.Title {
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+    text-align: left;
+    width:55%;
+}
+
+.Pay {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 1.5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .Container {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .Container {
+        width: 75%;
+    }
+}

@@ -1,0 +1,7 @@
+.accordionHeading{
+    background: var(--primary-color);
+}
+
+.accordionBody {
+    background: var(--tertiary-color);
+}
